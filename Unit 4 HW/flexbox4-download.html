@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Flexbox: Task 4</title>
+<h1>Salvatore Tornetto</h1>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font:
+          1.2em / 1.5 Helvetica Neue,
+          Helvetica,
+          Arial,
+          sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      ul {
+        width: 450px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-flow:row;
+        flex-flow:wrap
+      }
+
+      li {
+        border: 3px solid #000000;
+        border-radius: 0.5em;
+        color: #fff;
+        padding: 0.5em;
+        margin: 0.5em;
+      }
+
+      li:nth-of-type(odd){
+        background-color: rgb(231, 251, 47);
+      color:black
+      }
+
+      li:nth-of-type(even){
+        background-color: rgb(163, 110, 255);
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      <li>Turnip</li>
+      <li>greens</li>
+      <li>yarrow</li>
+      <li>ricebean</li>
+      <li>rutabaga</li>
+      <li>endive</li>
+      <li>cauliflower</li>
+      <li>sea lettuce</li>
+      <li>kohlrabi</li>
+      <li>amaranth</li>
+    </ul>
+  </body>
+</html>
